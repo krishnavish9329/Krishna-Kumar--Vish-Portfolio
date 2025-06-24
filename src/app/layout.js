@@ -10,7 +10,7 @@ import RightSidebar from "./components/RightSidebar"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Siddhant Khare - Portfolio",
+  title: "Krishna Kumar Vishwakarma- Portfolio",
   description: "Software Engineer Portfolio",
 }
 
