@@ -50,7 +50,7 @@ export default function LeftSidebar() {
   ];
 
   return (
-    <div className="fixed left-0 top-0 h-full w-20 bg-slate-900 z-40 flex flex-col items-center justify-center">
+    <div className="fixed left-0 top-0 h-[130%] w-20 bg-slate-900 z-40 flex flex-col items-center justify-center">
       <div className="flex flex-col items-center space-y-6">
         {socialLinks.map((link, index) => {
           const IconComponent = link.icon;
@@ -62,7 +62,7 @@ export default function LeftSidebar() {
               href={link.href}
               target={isExternal ? "_blank" : "_self"}
               rel={isExternal ? "noopener noreferrer" : undefined}
-              className="text-gray-400 hover:text-teal-400 transition-colors duration-200 p-2"
+              className="text-gray-400 hover:text-teal-400 transition-colors duration-200"
               aria-label={link.label}
             >
               <IconComponent className="w-5 h-5" />

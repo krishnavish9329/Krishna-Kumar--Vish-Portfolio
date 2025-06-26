@@ -18,9 +18,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} bg-slate-900`}>
-        <LeftSidebar />
-        <RightSidebar />
         <div className="ml-20 mr-20">
+          <LeftSidebar />
+          <RightSidebar />
           <Header />
           <main>{children}</main>
         </div>
