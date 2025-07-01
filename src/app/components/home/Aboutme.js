@@ -2,18 +2,21 @@ import Image from "next/image";
 
 export default function AboutMeSection() {
   return (
-    <section className="bg-slate-900 min-h-screen px-6 py-16 md:px-12 lg:px-20">
+    <section
+      className="bg-slate-900 min-h-screen"
+      style={{ padding: "64px 23px" }}
+    >
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left Content */}
           <div className="space-y-8">
             {/* Section Title */}
-            <div className="relative">
-              <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-                <span className="text-teal-400 font-mono text-lg mr-2">01.</span>
-                About Me
+            <div className="mb-16">
+              <h2 className="text-xl sm:text-2xl font-mono mb-4">
+                <span className="text-teal-400">01.</span>{" "}
+                <span className="text-slate-200 font-semibold">About Me</span>
               </h2>
-              <div className="w-64 h-px bg-gray-600 absolute top-8"></div>
+              <div className="w-48 sm:w-64 h-px bg-slate-600"></div>
             </div>
 
             {/* Main Content */}
@@ -21,17 +24,15 @@ export default function AboutMeSection() {
               <p>
                 Hello! I am Krishna, a 22 y/o and a Software engineer at{" "}
                 <span className="text-teal-400 font-medium">TOSS Solution</span>. I enjoy creating things that solve the
-                problems of millions people. Also, I love to contributing to Open Source Projects in my spare time &
-                weekends.
+                problems of millions people.
               </p>
 
               <p>
-                I've built accessible, inclusive products at <span className="text-teal-400 font-medium">GitHub</span>,{" "}
-                <span className="text-teal-400 font-medium">TechVault</span> for millions of people. Also collaborating
-                & actively contributing to various Open Source Organizations like{" "}
-                <span className="text-teal-400 font-medium">MetaCall</span>,{" "}
-                <span className="text-teal-400 font-medium">Go Students</span>,{" "}
-                <span className="text-teal-400 font-medium">IOSF</span>, for creating various Open Source Products.
+                I've built accessible, inclusive products at{" "}
+                <span className="text-teal-400 font-medium">Ensurekar</span>,{" "}
+                <span className="text-teal-400 font-medium">TOSS Consultancy Services</span>. Also contributing to the custom annotation and labeling tool{" "}
+                <span className="text-teal-400 font-medium">Label Studio</span>,{" "}
+
               </p>
 
               <p className="pt-2">Here are a few technologies I've been working with recently:</p>
@@ -46,15 +47,15 @@ export default function AboutMeSection() {
                 </div>
                 <div className="flex items-center">
                   <span className="text-teal-400 mr-3 text-xs">▸</span>
-                  <span>Docker | K8s</span>
+                  <span>Next Js</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-teal-400 mr-3 text-xs">▸</span>
-                  <span>Circle CI | GitHub Actions</span>
+                  <span>React JS</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-teal-400 mr-3 text-xs">▸</span>
-                  <span>YAML</span>
+                  <span>Node Js</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-teal-400 mr-3 text-xs">▸</span>
@@ -63,31 +64,24 @@ export default function AboutMeSection() {
               </div>
 
               <div className="space-y-3">
+                
                 <div className="flex items-center">
                   <span className="text-teal-400 mr-3 text-xs">▸</span>
-                  <span>Svelte</span>
+                  <span>AWS | EC2 | GCP </span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-teal-400 mr-3 text-xs">▸</span>
-                  <span>AWS | GCP | DigitalOcean</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-teal-400 mr-3 text-xs">▸</span>
-                  <span>Ruby | Ruby on Rails</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-teal-400 mr-3 text-xs">▸</span>
-                  <span>Nginx | Jenkins</span>
+                  <span>Nginx</span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right Content - Profile Image */}
+          {/* Right Content - Profile Image with Offset Border shifted left */}
           <div className="flex justify-center lg:justify-end lg:mt-16">
-            <div className="relative group">
-              {/* Main Image Container */}
-              <div className="relative w-80 h-96 bg-white rounded-lg overflow-hidden">
+            <div className="relative group -translate-x-10"> {/* Shift left by 1rem (16px) */}
+              {/* Main Image */}
+              <div className="relative w-80 h-96 bg-white rounded-xl overflow-hidden z-10 shadow-lg">
                 <Image
                   src="/KrishnaImage.png"
                   alt="Krishna - Software Engineer"
@@ -97,13 +91,14 @@ export default function AboutMeSection() {
                 />
               </div>
 
-              {/* Teal Border Frame */}
-              <div className="absolute top-6 left-6 w-80 h-96 border-2 border-teal-400 rounded-lg -z-10"></div>
+              {/* Offset Border Frame */}
+              <div className="absolute top-5 left-5 w-80 h-96 border-2 border-teal-400 rounded-xl -z-0"></div>
             </div>
           </div>
+
+
         </div>
       </div>
     </section>
   );
 }
-
