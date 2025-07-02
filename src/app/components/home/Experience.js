@@ -4,82 +4,42 @@ import { useState } from "react"
 
 const experiences = [
   {
-    id: "gitpod-1",
-    company: "Gitpod",
+    id: "TOSS-1",
+    company: "TOSS Solution",
     position: "Software Engineer",
-    companyHighlight: "Gitpod",
-    period: "Nov 2022 - Present",
-    description: "I have been working as a Software Engineer at Gitpod.",
+    companyHighlight: "TOSS",
+    period: "Feb 2025 - Present",
+    description: "I have been working as a Software Engineer at TOSS.",
     highlights: [
-      "🚀 Leading Gitpod Website using Svelte & TypeScript.",
-      "📄 Product Engineering Architecture & Docs.",
-      "🚀 Gitpod for Open Source",
-    ],
-    note: {
-      text: "Most of the company's work is open-source, so you can see ",
-      link: "my pull requests for Gitpod on GitHub!",
-      continuation: " If you look around, you might spot me chiming in on a ",
-      secondLink: "variety of other pull requests",
-      ending: " and issue discussions as well.",
-    },
-  },
-  {
-    id: "gitpod-2",
-    company: "Gitpod",
-    position: "Frontend Developer",
-    companyHighlight: "Gitpod",
-    period: "Jan 2022 - Nov 2022",
-    description: "Worked on frontend development at Gitpod.",
-    highlights: [
-      "🚀 Built user interface components using React & TypeScript.",
-      "📄 Collaborated on design system implementation.",
+      "🚀 Leading Next Js, TypeScript.",
+      "📄 Full Stack Development",
+      "🧑🏻‍💻AWS (ec2)",
+      "🧑🏻 Integrate Payment Gateway  "
+
     ],
   },
   {
-    id: "github",
-    company: "Github",
-    position: "Open Source Contributor",
-    companyHighlight: "Github",
-    period: "2021 - 2022",
-    description: "Contributed to various open source projects.",
-    highlights: ["🚀 Contributed to multiple repositories and projects."],
+    id: "Oasis Infobyte",
+    company: "Oasis Infobyte",
+    position: "web Developer intern",
+    companyHighlight: "Oasis Infobyte",
+    period: "Jan 2023 - Feb 2023",
+    description: "Worked on frontend and Backend development at Oasis Infobyte.",
+    highlights: [
+      "🚀 Leading NodeJS, Express Js, Mysql.",
+
+    ],
   },
-  {
-    id: "greenstand",
-    company: "GreenStand",
-    position: "Full Stack Developer",
-    companyHighlight: "GreenStand",
-    period: "2020 - 2021",
-    description: "Developed environmental impact tracking applications.",
-    highlights: ["🚀 Built tree tracking and verification systems."],
-  },
-  {
-    id: "hikaya",
-    company: "Hikaya",
-    position: "Software Developer",
-    companyHighlight: "Hikaya",
-    period: "2019 - 2020",
-    description: "Worked on humanitarian technology solutions.",
-    highlights: ["📄 Developed data management platforms."],
-  },
-  {
-    id: "bread",
-    company: "Bread",
-    position: "Junior Developer",
-    companyHighlight: "Bread",
-    period: "2018 - 2019",
-    description: "Started career in fintech development.",
-    highlights: ["🚀 Built payment processing features."],
-  },
-  {
-    id: "techvault",
-    company: "TechVault",
-    position: "Intern",
-    companyHighlight: "TechVault",
-    period: "2017 - 2018",
-    description: "Internship focused on web development.",
-    highlights: ["📄 Learned modern web development practices."],
-  },
+  // {
+  //   id: "github",
+  //   company: "Github",
+  //   position: "Open Source Contributor",
+  //   companyHighlight: "Github",
+  //   period: "2021 - 2022",
+  //   description: "Contributed to various open source projects.",
+  //   highlights: ["🚀 Contributed to multiple repositories and projects."],
+  // },
+ 
 ]
 
 export default function ExperienceSection() {
