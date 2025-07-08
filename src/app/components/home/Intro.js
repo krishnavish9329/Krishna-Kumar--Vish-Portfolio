@@ -31,7 +31,7 @@ export default function Into() {
 
           {/* CTA Button */}
           <Link
-            href="/contact"
+            href="#contact"
             className="inline-block border border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-slate-900 transition-colors duration-200 px-5 py-2 text-sm sm:text-base rounded"
           >
             Get In Touch

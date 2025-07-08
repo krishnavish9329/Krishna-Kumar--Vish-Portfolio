@@ -5,6 +5,7 @@ export default function AboutMeSection() {
     <section
       className="bg-slate-900 min-h-screen"
       style={{ padding: "64px 23px" }}
+      id="about"
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">

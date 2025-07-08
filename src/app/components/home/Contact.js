@@ -4,7 +4,10 @@ import { Star, GitFork } from "lucide-react"
 
 export default function ContactSection() {
   return (
-    <section className="bg-slate-900 min-h-screen flex flex-col justify-center items-center px-4 py-3 text-center">
+    <section 
+    className="bg-slate-900 min-h-screen flex flex-col justify-center items-center px-4 py-3 text-center"
+    id="contact"
+    >
       <div className="max-w-3xl w-full pb-[135px]">
         {/* Section Number and Title */}
         <h2 className="text-teal-400 font-mono text-sm sm:text-base mb-4">

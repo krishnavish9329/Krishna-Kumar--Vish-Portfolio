@@ -216,7 +216,7 @@ export default function Header() {
               {["about", "experience", "work", "contact"].map((path, i) => (
                 <Link
                   key={path}
-                  href={`/${path}`}
+                  href={`#${path}`}
                   className="text-gray-300 hover:text-teal-400 transition-colors duration-200 flex items-center space-x-2"
                 >
                   <span className="text-teal-400 font-mono text-sm">

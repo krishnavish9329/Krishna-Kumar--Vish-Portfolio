@@ -48,7 +48,9 @@ export default function ExperienceSection() {
   const currentExperience = experiences.find((exp) => exp.id === activeExperience) || experiences[0]
 
   return (
-    <div className="bg-slate-900 min-h-screen px-4 sm:px-6 lg:px-8 py-16">
+    <div className="bg-slate-900 min-h-screen px-4 sm:px-6 lg:px-8 py-16"
+     id="experience"
+    >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-16">
