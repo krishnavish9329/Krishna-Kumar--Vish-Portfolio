@@ -21,8 +21,9 @@ export default function ContactSection() {
 
         {/* Description */}
         <p className="text-slate-400 text-base sm:text-lg leading-relaxed mb-8 sm:mb-10">
-          I'm currently not for any Full-Time opportunities. But, my inbox is always open for Open Source Projects,
-          Freelance Projects, or whether you have a question or just want to have a chat!
+I’m currently available for Full-Time opportunities as a Full Stack Developer, Software Engineer, or in Manual Software Testing roles.
+My skill set includes Next.js, React.js, Node.js, SQL, Git/GitHub, and AI tools like ChatGPT and LM Studio.
+Feel free to reach out if you have a project, a question, or just want to connect!
         </p>
 
         {/* Button */}
@@ -36,15 +37,15 @@ export default function ContactSection() {
 
       {/* Footer */}
       <footer className="text-slate-400 text-xs font-mono text-center">
-        <p className="mb-2">Designed & Built by Brittany Chiang</p>
+        <p className="mb-2">Designed by Brittany Chiang</p>
         <div className="flex justify-center items-center gap-6">
           <div className="flex items-center gap-1">
-            <Star className="w-4 h-4" />
-            <span>7,934</span>
+            {/* <Star className="w-4 h-4" />
+            <span>7,934</span> */}
           </div>
           <div className="flex items-center gap-1">
-            <GitFork className="w-4 h-4" />
-            <span>4,064</span>
+            {/* <GitFork className="w-4 h-4" />
+            <span>4,064</span> */}
           </div>
         </div>
       </footer>
