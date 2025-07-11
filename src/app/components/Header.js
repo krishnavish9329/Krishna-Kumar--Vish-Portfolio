@@ -280,7 +280,7 @@ export default function Header() {
             {["about", "experience", "work", "contact"].map((path, i) => (
               <Link
                 key={path}
-                href={`/${path}`}
+                href={`#${path}`}
                 className="text-gray-300 hover:text-teal-400 transition-colors duration-200 flex items-center space-x-3 px-2 py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
