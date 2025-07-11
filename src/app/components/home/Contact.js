@@ -28,7 +28,7 @@ Feel free to reach out if you have a project, a question, or just want to connec
 
         {/* Button */}
         <a
-          href="mailto:hello@example.com"
+          href="mailto:Krishna.vish9329@gmail.com"
           className="inline-block px-8 py-4 border-2 border-teal-400 text-teal-400 font-mono text-sm sm:text-base rounded hover:bg-teal-400/10 transition hover:shadow-lg hover:shadow-teal-400/20"
         >
           Say Hello
