@@ -60,7 +60,7 @@ const projects = [
   {
     id: 4,
     featured: false,
-    title: "Domy Project",
+    title: "Dummy Project",
     description:
       "The Domy Project was developed for TOSS Solutions And TOSS Consultancy Services.",
     technologies: ["React","Vercel"],
