@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} bg-slate-900`}>
         {/* px-0 on mobile, px-6 on tablet, px-20 on desktop */}
-        <div className="px-0 sm:px-6 lg:px-20">
+        <div className="px-0 sm:px-0 lg:px-20">
           {/* Left Sidebar - hidden on small screens */}
           <div className="hidden lg:block">
             <LeftSidebar />
