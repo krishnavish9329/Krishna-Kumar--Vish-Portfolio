@@ -48,7 +48,7 @@ const projects = [
     title: "Weather App",
     description:
       "This weather app delivers accurate weather updates for any specific location you choose.",
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe API", "AWS", "Redux"],
+    technologies: ["Html", "Css", "JavaScript" ],
     image: wapp,
     github: "https://github.com/krishnavish9329/weather_app",
     external: "https://krishnavish9329.github.io/weather_app/",
