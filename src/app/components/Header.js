@@ -297,7 +297,8 @@ export default function Header() {
                 className="w-full bg-transparent border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-slate-900 transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                <Link href="/resume" className="block w-full">
+                // <Link href="/resume" className="block w-full">
+                    <Link href="#" className="block w-full">
                   Resume
                 </Link>
               </Button>
